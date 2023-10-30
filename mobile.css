@@ -1,0 +1,78 @@
+/* Responsive For Mobile Device */
+@media (max-width:600px) {
+
+    /* Global Styles Starts */
+    :root {
+        font-size: 40%;
+        border: 2px solid red;
+    }
+    /* Global Styles End */
+
+    /* Header Area Styles Start */
+    .logo h3 {
+        margin-left: 230px;
+    }
+
+    nav ul li a {
+        display: none;
+    }
+    /* Header Area Styles End */
+
+    /* Hero Area Styles Start */
+    .hero-content {
+        width: 500px;
+        height: 150px;
+        top: 30%;
+        left: 18%;
+    }
+    /* Hero Area Styles End */
+
+    /* Blogs Area Styles Start */
+    .blog-post-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .posts {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blogs {
+        width: 500px;
+        background: rgba(52, 114, 47, 0.15);
+        margin-left: 40px;
+    }
+
+    /* Blogs Area Styles End */
+
+    /* Footer Area Styles Start */
+    .first-part {
+        grid-template-columns: 1fr;
+    }
+
+    .yummy-blog-content {
+        width: 500px;
+        margin-left: 140px;
+        text-align: center;
+    }
+
+    .yummy-blog-content h2 {
+        margin-right: 180px;
+    }
+
+    .contact-content {
+        margin-left: 18%;
+        gap: 20px;
+        display: flex;
+    }
+
+    .policy-content {
+        margin-left: 12%;
+        gap: 20px;
+        display: flex;
+    }
+    .social-media-content {
+        margin-left: 35%;
+    }
+    /* Footer Area Styles End */
+}
+
+/* Responsive For Mobile Device */
